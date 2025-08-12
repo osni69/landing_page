@@ -1,9 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 header{
     background-color: darkgreen;
     height: 100px;
+    text-align: center;
     align-items: center;
-    transition: background-color 0.3s ease;
 }
-header:hover{
-    background-color: rgb(0, 63, 0);
+h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    color: whitesmoke;
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    justify-content: center;
+}
+#oqé{
+    background-color: bisque;
+    height: 700px;
+}
+#como{
+    background-color: violet;
+    height: 700px;
+}
+#demiurgo{
+    background-color: aqua;
+    height: 700px;
 }
