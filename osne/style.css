@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -12,7 +13,6 @@ header{
 }
 h1{
     font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav{
     background-color: black;
@@ -29,7 +29,7 @@ ul{
     position: relative;
     display: flex;
     list-style-type: none;
-    gap: 50px;
+    gap: 100px;
     justify-content: center;
 }
 #oqé{
@@ -40,7 +40,14 @@ ul{
     background-color: violet;
     height: 700px;
 }
+.como{
+    width: 35rem;
+}
 #demiurgo{
     background-color: aqua;
     height: 700px;
+}
+.logo{
+    position: relative;
+    width: 250px
 }
