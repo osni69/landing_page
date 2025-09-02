@@ -4,7 +4,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+body{
+    text-align: center;
+}
 header{
     background-color: rgb(201, 170, 124);
     text-align: center;
@@ -17,61 +19,47 @@ nav{
     background-color: black;   
     color: darkgrey;
 }
-a{
+.menu a{
     text-decoration: none;
     color: whitesmoke;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
 }
-a:hover{
+.menu a:hover{
     text-decoration: underline;
+    font-size: 21px;
 }
 main{
-        background-color: bisque;
+    background-color: bisque;
 }
-.nav{
+.menu{
     position: relative;
     display: flex;
     list-style-type: none;
-    gap: 100px;
     justify-content: center;
-}
-#oqé{
-    margin: auto;
-}
-#oqé li{
-    color: rgb(0, 0, 0);
-    list-style-type: none;
-    font-size: 30px;
-}
- 
-#como{
-    margin-top: 20px;
-}
-.como{
-    width: 35rem;
-}
-#demiurgo{
-    margin-top: 20px;
-    height: 700px;
 }
 .logo{
     width: 100px;
-    margin-top: 5px;
 }
-p{
-    font-size: 30px;
-    align-items: center;
+#oqé{
+    padding-top: 30px;
 }
-h2{
-    font-size: 35px;
+.texto1{
+    background-color: rgb(255, 215, 167);
+    margin: 0 50px 0 50px;
+    border-radius: 8px;
+    transition: 0.3s ease;
 }
-.fotooqé{
-    width: 250px;
+.texto1:hover{
+    background-color: rgb(255, 188, 106);
 }
-.conteudo-flex {
-    display: flex;
-    gap: 20px;
-    align-items: center; 
-}
-img{
+.texto1 p{
+    text-align: justify;
+    font-size: 40px;
     margin: 10px;
+}
+.texto1 img{
+    width: 250px;
 }
