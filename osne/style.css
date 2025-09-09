@@ -29,7 +29,6 @@ nav{
 }
 .menu a:hover{
     text-decoration: underline;
-    font-size: 21px;
 }
 main{
     background-color: bisque;
@@ -50,7 +49,7 @@ main{
     background-color: rgb(255, 215, 167);
     margin: 0 50px 0 50px;
     border-radius: 8px;
-    transition: 0.3s ease;
+    transition: 0.5s;
 }
 .texto1:hover{
     background-color: rgb(255, 188, 106);
@@ -62,4 +61,13 @@ main{
 }
 .texto1 img{
     width: 250px;
+}
+.card{
+    background-color: rgb(255, 215, 167);
+    width: 350px;
+    border-radius: 5px;
+}
+.card img{
+    width: 300px;
+    padding-top: 10px;
 }
